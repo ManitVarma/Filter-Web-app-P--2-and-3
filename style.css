@@ -1,0 +1,22 @@
+.btn-warning:hover{
+    background-color: navy;
+}
+
+canvas{
+    animation-name: Animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Animation1{
+    from{box-shadow: 2px 2px 34px navy;}
+    to{box-shadow: 2px 2px 34px orange;}
+}
+
+body{
+    text-align: center;
+}
+
+h1, h2{
+    color: goldenrod;
+}
